@@ -1,6 +1,6 @@
 const items = [
   {
-    id: "recmg2a1ctaEJNZhu",
+    id: Math.random().toString(10).substring(2),
     name: "Utopia sofa",
     image: {
       url:
@@ -9,7 +9,7 @@ const items = [
     price: 39.95
   },
   {
-    id: "recvKMNR3YFw0bEt3",
+    id: Math.random().toString(10).substring(2),
     name: "Entertainment center",
     image: {
       url:
@@ -18,7 +18,7 @@ const items = [
     price: 29.98
   },
   {
-    id: "recxaXFy5IW539sgM",
+    id: Math.random().toString(10).substring(2),
     name: "Albany sectional",
     image: {
       url:
@@ -27,7 +27,7 @@ const items = [
     price: 10.99
   },
   {
-    id: "recyqtRglGNGtO4Q5",
+    id: Math.random().toString(10).substring(2),
     name: "Leather sofa",
     image: {
       url:
