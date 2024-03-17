@@ -2,7 +2,6 @@
   try {
     const id = window.location.search;
     const { data } = await axios.get(`/netlify/03-airtable.get-product-${id}`);
-    console.log(data);
     document.querySelector(".result").innerHTML = generate(data);
   } catch (error) {
     console.error(error);
@@ -16,8 +15,8 @@ function generate(product) {
   <h1 class="title">${name}</h1>
   <article class="product">
     <img class="product-img"
-    src="${image}"
-    alt="${name}"
+      src="${image}"
+      alt="${name}"
     />
     <div class="product-info">
       <h5 class="title">${name}</h5>

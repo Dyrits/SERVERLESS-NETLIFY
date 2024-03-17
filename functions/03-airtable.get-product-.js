@@ -25,7 +25,13 @@ exports.handler = async (event) => {
       throw new Error(error.message);
     }
   } catch (error) {
-    return error.message;
+    console.error(error);
+    return {
+      headers: {
+        "Access-Control-Allow-Origin": "*"
+      },
+      statusCode: 500,
+      body: error.message
+    }
   }
-
 }
