@@ -1,6 +1,7 @@
-.result h1 {
-  margin-top: 3rem;
+.result {
+  padding: 5rem 0;
 }
+
 .link {
   color: var(--clr-primary-5);
 }
